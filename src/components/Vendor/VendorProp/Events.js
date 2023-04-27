@@ -46,7 +46,7 @@ function Events(props) {
         <div className="eventimg">
           <div className="editimg">
             {" "}
-            <img src={editIcon}></img>{" "}
+            <Link to={`/Editform/${props.id}`}><img src={editIcon}></img>{" "}</Link>
           </div>
           <div className="deleteimg">
             {" "}
