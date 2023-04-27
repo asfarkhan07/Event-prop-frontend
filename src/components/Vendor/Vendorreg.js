@@ -14,7 +14,7 @@ function Vendorreg() {
     conformpassword:"",
    
   })
-  const {name, email, contact,password} = regForm;
+  // const {name, email, contact,password} = regForm;
   function updateData(e,propName){
     let temp=e.target.value
     setRegForm(data =>({

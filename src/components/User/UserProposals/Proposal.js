@@ -5,38 +5,7 @@ import { Link } from "react-router-dom";
 import Proposaldetail from "./Proposaldetail";
 
 function Proposal(props) {
-  // function nextpage(props){
-  //   <Proposaldetail data={props}/>
-  // }
-
-  // console.log("props : ",props);
-  // const [vendor,setVendor]=useState([]);
-
-  // const getVendordata= () =>{
-  //   fetch("/vendordata",{
-  //       method:"GET",
-  //       crossDoamin:true,
-  //       headers:{
-  //           "content-type":"application/json",
-  //           accept: "application/json",
-  //           "Access-Control-Allow-Origin":"*",
-  //       },
-  //   })
-  //   .then((res) => res.json())
-  //     .then((data) => {
-  //       setVendor(data);
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //     });
-  // };
-
-  //   useEffect(()=>{
-  //     getVendordata();
-  //     // if( !localStorage.getItem("vendorToken") && !localStorage.getItem("userToken")){
-  //     //     navigate('/User')
-  //     //   }
-  // },[])
+  
   console.log(props.data._id)
 
   // <div className="userproposal">

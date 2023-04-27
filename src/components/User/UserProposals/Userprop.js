@@ -16,30 +16,6 @@ function Userprop() {
     localStorage.removeItem("selectedproposal");
     setGetdeselect(false)
   }
-  // const [getselected , setGetSelected] = useState([]);
-  // const [vendor,setVendor]=useState([]);
-  // console.log(select.length===0 ? "false" : "true");
-  //   console.log(select._id)
-  //  console.log(getselected)
-  // const selectedProposal = ()=>{
-  //   fetch(`/getselectedproposals/${select._id}`, {
-  //     method: "GET",
-  //     crossDoamin: true,
-  //     headers: {
-  //       "content-type": "application/json",
-  //       accept: "application/json",
-  //       "Access-Control-Allow-Origin": "*",
-  //     },
-
-  //   })
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //     setGetSelected(data);
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //     });
-  // };
 
   const getProposaldata = () => {
     fetch("https://event-proposal-backend-g0mb.onrender.com/proposals", {

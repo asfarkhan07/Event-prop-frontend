@@ -14,7 +14,7 @@ function VendorHome() {
     password:""
   });
  
-  const {email,password} = formData
+  // const {email,password} = formData
   function updateData(e,propName){
     let temp=e.target.value
     setFormData(data =>({
